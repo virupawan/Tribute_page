@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.head{
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    text-align: center;
+    background: #000;
+    color:#fff ;
+}
+.head p{
+    font-size: 20px;
+    font-family: 200px;
+    margin-top: 2px;
+}
+.head iframe{
+    margin-top: 5px;
+    width: 400px;
+    height: 180px;
+}
+.box{
+    width: 100%;
+    background: #000;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    top: 0;
+    /* padding: 0; */
+}
+ .imge{
+    /* object-fit: cover; */
+    background-image: url('./apj.webp');
+    background-size: cover;
+
+} 
+ .quote{
+     background-color: #fff; 
+} 
+.quote blockquote{
+  text-align: center;
+  position: absolute;
+  top: 450px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.info{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    top: 0; 
+}
+
+
+ .info .bio{
+    clear: both;
+    background: #000;
+    color: #cec8c8;
+    height: 250px;
+    margin-top:0.1PX ;
+    width: 100%;
+
+}
+.info .about{
+    clear: both;
+    font-size: 20px;
+    background-color:#b4a4a4;
+    margin-bottom: 0%;
+}
